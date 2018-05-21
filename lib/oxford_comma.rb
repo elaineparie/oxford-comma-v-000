@@ -3,7 +3,7 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.length > 2
   end_of_string = array.slice!(1..-1)
-    array.join(", ") 
+    array.join(", ")
   else
     array.join
   end
